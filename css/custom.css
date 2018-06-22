@@ -5,13 +5,16 @@ box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.45);
 
 }
 .navbar{
-	background: url(../images/rev2.png)
+	background: url(../images/rev2.png);
+	-webkit-box-shadow: 6px 18px 39px 0px rgba(0,16,186,1);
+-moz-box-shadow: 6px 18px 39px 0px rgba(0,16,186,1);
+box-shadow: 6px 18px 39px 0px rgba(0,16,186,1);
 }
 a:link.Kachel
     {
         
         line-height: 100px;
-        display: block;
+       
        /* text-align: center;*/
 		
         
@@ -22,12 +25,17 @@ a:link.Kachel
 	height: 150px
 }
 .service {
-	background-color: #A700E7;
+	background-color: #b2a095;
 	height: 150px
 	
 }
 .about {
-	background-color: #C43F0B;
+	background-color: #d6de23;
+	height: 150px
+	
+}
+.contact {
+	background-color: #BFB0AF;
 	height: 150px
 	
 }
@@ -42,6 +50,10 @@ ul{
 	height: 150px
 		
 }
+@font-face{
+	font-family: champagne;
+	src: url(../fonts/Champagne.ttf)
+}
 @font-face {
 	font-family: CaviarDreams;
 	src: url(../fonts/CaviarDreams_Bold.ttf)
@@ -55,20 +67,30 @@ ul{
 	-ms-transform: rotate(-90deg);
 	/* Opera */
 	-o-transform: rotate(-90deg);
-	transform: rotate(-90.0deg);
+	transform: rotate(0.0deg);
 	
 }
 
 .nav-link {
 	font-family: CaviarDreams;
 	text-transform: uppercase;
+	transform: rotate(270deg);
+	
 	
 }
-
+p{
+	color: #cccc00;
+	text-decoration: bold
+}
 .navbar-brand {
-	padding: 0 15px;
+	padding: 60px 150px 0px ;
 	height: 150px;
 	line-height: 80px;
+	font-family: champagne;
+	text-transform: uppercase;
+}
+.colo{
+	color: #cccc00
 }
 .navbar-toggle {
 	/* (80px - button height 34px) / 2 = 23px */
