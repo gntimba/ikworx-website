@@ -1,0 +1,79 @@
+li{
+-webkit-box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.45);
+-moz-box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.45);
+box-shadow: -6px 0px 5px 0px rgba(0,0,0,0.45);
+
+}
+.navbar{
+	background: url(../images/rev2.png)
+}
+a:link.Kachel
+    {
+        
+        line-height: 100px;
+        display: block;
+       /* text-align: center;*/
+		
+        
+    }
+.home {
+	background-color: #ACC908;
+	
+	height: 150px
+}
+.service {
+	background-color: #A700E7;
+	height: 150px
+	
+}
+.about {
+	background-color: #C43F0B;
+	height: 150px
+	
+}
+
+.training {
+	background-color: #E4035E;
+	height: 150px
+	
+}
+
+ul{
+	height: 150px
+		
+}
+@font-face {
+	font-family: CaviarDreams;
+	src: url(../fonts/CaviarDreams_Bold.ttf)
+}
+.rotate {
+	/* Safari */
+	-webkit-transform: rotate(-90deg);
+	/* Firefox */
+	-moz-transform: rotate(-90deg);
+	/* IE */
+	-ms-transform: rotate(-90deg);
+	/* Opera */
+	-o-transform: rotate(-90deg);
+	transform: rotate(-90.0deg);
+	
+}
+
+.nav-link {
+	font-family: CaviarDreams;
+	text-transform: uppercase;
+	
+}
+
+.navbar-brand {
+	padding: 0 15px;
+	height: 150px;
+	line-height: 80px;
+}
+.navbar-toggle {
+	/* (80px - button height 34px) / 2 = 23px */
+	margin-top: 23px;
+	padding: 9px 10px !important;
+}
+
+
