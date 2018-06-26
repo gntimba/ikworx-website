@@ -113,7 +113,8 @@ p{
   top: 0;
   width: 100%;
 	height: 89px;
-	background: url(../images/rev3.png);
+	background: url(../images/rev3_dark.png);
+	z-index: 1000;
 }
 /*sections*/
   body {
@@ -172,6 +173,7 @@ text-align: center;
 	padding: 0px 0px 50px 0px;
 font-family: champagne;
 font-weight: bold;
+
 	
 }
 div.home_section p{
@@ -195,5 +197,30 @@ div.transbox p {
     font-weight: bold;
     color: #000000;
 }
+/*card*/
+.card{
+	height: 27rem;
+	width: 13rem;
+}
 
+/*DARKEN*/
+.card-img-top{
+	background-color: #777776;
+	
+}
+img {
+  -webkit-filter: brightness(100%);
+  -webkit-transition: all 1s ease;
+     -moz-transition: all 1s ease;
+       -o-transition: all 1s ease;
+      -ms-transition: all 1s ease;
+          transition: all 1s ease;
+}
+ 
+img:hover {
+  -webkit-filter: brightness(50%);
+}
+.card-body{
+	height: 8rem;
+}
 
