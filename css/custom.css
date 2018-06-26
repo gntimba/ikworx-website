@@ -54,8 +54,13 @@ ul{
 		
 }
 @font-face{
+	font-family: handwriting;
+	src: url(../fonts/SoulMarker_Handwriting_Font.ttf);
+}
+
+@font-face{
 	font-family: champagne;
-	src: url(../fonts/Champagne.ttf)
+	src: url(../fonts/Champagne.ttf);
 }
 @font-face {
 	font-family: CaviarDreams;
@@ -115,7 +120,7 @@ p{
 	  margin:0;
        
   }
-  #home {padding-top:50px;height:500px;color: #fff; background-color: #1E88E5;}
+  #home {padding-top:50px;height:550px;color: #fff; background-color: #1E88E5;}
   #services {padding-top:50px;height:500px;color: #fff; background-color: #673ab7;}
   #about {padding-top:50px;height:500px;color: #fff; background-color: #ff9800;}
   #training {padding-top:50px;height:500px;color: #fff; background-color: #00bcd4;}
@@ -123,6 +128,7 @@ p{
 /* margin on top*/
 .main {
     margin-top: 89px; /* Add a top margin to avoid content overlay */
+	
 }
 /*Parallax*/
 .bgimg-1,.bgimg-2,.bgimg-3,.bgimg-4,.bgimg-5 { 
@@ -133,7 +139,7 @@ p{
     background-size: cover;
 }
 .bgimg-1 {
-  background-image: url("../images/header.png");
+  background-image: url("../images/Ikdoor@1x.jpg");
   min-height: 100%;
 }
 .bgimg-2 {
@@ -155,12 +161,33 @@ p{
 
 /*home content*/
 
+.change_ikworx{
+	color: #cccc00;
+}
+div.home_section{
+		padding: 120px 0px 50px;
+}
+div.home_section h1{
+text-align: center;
+	padding: 0px 0px 50px 0px;
+font-family: champagne;
+font-weight: bold;
+	
+}
+div.home_section p{
+	text-align: center;
+	font-family: handwriting;
+	font-size: 50px
+}
 div.transbox {
+	overflow: hidden;
+	   color: rgba(255, 255, 255, 0.5);
+    background-color: rgba(153, 0, 0, 0.2);
     margin: 30px;
-    background-color: #ffffff;
+    
     border: 1px solid black;
-    opacity: 0.6;
-    filter: alpha(opacity=60); /* For IE8 and earlier */
+   
+   /*  filter: alpha(opacity=60); For IE8 and earlier */
 }
 
 div.transbox p {
