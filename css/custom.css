@@ -101,7 +101,7 @@ body {
 }
 #services {
 	padding-top: 50px;
-	height: 500px;
+	height: 650px;
 	color: #fff;
 }
 #about {
@@ -136,7 +136,7 @@ body {
 	min-height: 100%;
 }
 .bgimg-2 {
-	background-image: url("../images/37343710-dark-forest.jpg");
+	background-image: url("../images/Services wallpaper.png");
 	min-height: 400px;
 }
 .bgimg-3 {
@@ -213,7 +213,7 @@ img:hover {
 padding-left: 300px;}
 .padd-li{
 	margin: 100px 0px 0px 0px;
-	
+	height: 5px;
 	
 }
 
