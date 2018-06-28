@@ -186,6 +186,7 @@ div.transbox p {
 .card {
 	height: 27rem;
 	width: 13rem;
+	z-index: auto;
 }
 /*DARKEN*/
 .card-img-top {
@@ -206,9 +207,14 @@ img:hover {
 	height: 8rem;
 }
 .row{
+	z-index: 2;
+}
+.padd{
+padding-left: 300px;}
+.padd-li{
+	margin: 100px 0px 0px 0px;
+	
 	
 }
-.padd{padding-bottom: 50px;
-padding-left: 150px;}
 
 
